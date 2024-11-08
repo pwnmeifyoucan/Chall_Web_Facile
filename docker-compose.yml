@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+    php:
+        image: huybadpi/facile_web:latest
+        container_name: php82
+        ports:
+            - "4000:80"
+    db:
+        image: huybadpi/mysql_for_chall:latest  
+        container_name: masql8
+        ports:
+            - "3307:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: pass
+            MYSQL_DATABASE: data_users
+            MYSQL_USER: test
+            MYSQL_PASSWORD: pass
+
+volumes:
+    db_data:
