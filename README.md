@@ -1,1 +1,1 @@
-Téléchargez le fichier $${\color{blue}docker-compose.yml}$$ et exécutez la commande $${\color{red}docker-compose up -d}$$ pour voir le défi
+Téléchargez le fichier \textcolor{blue}{docker-compose.yml} et exécutez la commande \textcolor{red}{docker-compose up -d} pour voir le défi.
